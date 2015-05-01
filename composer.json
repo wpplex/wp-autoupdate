@@ -16,9 +16,9 @@
 	"require": {
 		"php": ">=5.3.0" 
 	},
-    "autoload": {
-        "psr-4": {
-            "wpplex\\WP_AutoUpdate": ""
-        }
-    }
+	"autoload": {
+		"psr-4": {
+			"wpplex\\WP_AutoUpdate\\": ""
+		}
+	}
 }
