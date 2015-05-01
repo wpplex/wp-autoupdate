@@ -1,5 +1,5 @@
 {
-	"name": "omarabid/wp-autoupdate",
+	"name": "wpplex/wp-autoupdate",
 	"type": "library",
 	"description": "Create your own self-hosted WordPress Plugin repository for pushing automatic updates.",
 	"keywords": ["wordpress", "auto-update"],
@@ -16,12 +16,9 @@
 	"require": {
 		"php": ">=5.3.0" 
 	},
-	"archive": {
-        "exclude": ["plugin.php", "update.php"]
-    },
     "autoload": {
         "psr-4": {
-            "omarabid\\": ""
+            "wpplex\\WP_AutoUpdate": ""
         }
     }
 }

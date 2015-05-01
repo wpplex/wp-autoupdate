@@ -1,5 +1,5 @@
 <?php
-namespace omarabid;
+namespace wpplex\WP_AutoUpdate;
 
 class WP_AutoUpdate 
 {
