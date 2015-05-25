@@ -84,7 +84,7 @@ class WP_AutoUpdate
 
 		// If a newer version is available, add the update
 		if ( version_compare( $this->current_version, $remote_version->new_version, '<' ) ) {
-			$obj = new stdClass();
+			$obj = new \stdClass();
 			$obj->slug = $this->slug;
 			$obj->new_version = $remote_version->new_version;
 			$obj->url = $remote_version->url;
